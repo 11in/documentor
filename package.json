@@ -1,0 +1,36 @@
+{
+  "name": "@11in/scribe",
+  "version": "1.0.0",
+  "description": "Tools to help with writing and formatting text.",
+  "main": ".eleventy.js",
+  "files": [
+    ".eleventy.js",
+    "src/**"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/11in/scribe.git"
+  },
+  "author": "Ben Martinez-Bateman <ben@alwaysblank.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/11in/scribe/issues"
+  },
+  "homepage": "https://github.com/11in/scribe#readme",
+  "dependencies": {
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.4",
+    "@tailwindcss/typography": "^0.3.1",
+    "eleventy-plugin-footnotes": "^0.9.0",
+    "eleventy-plugin-reader-bar": "^0.2.0",
+    "eleventy-plugin-reading-time": "0.0.1",
+    "markdown-it": "^12.0.2",
+    "markdown-it-anchor": "^6.0.1",
+    "markdown-it-container": "^3.0.0",
+    "markdown-it-emoji": "^2.0.0",
+    "markdown-it-toc-done-right": "^4.2.0",
+    "typeset": "^0.3.1"
+  }
+}
