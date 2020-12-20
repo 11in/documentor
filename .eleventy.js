@@ -45,7 +45,6 @@ module.exports = {
         /* EXTERNAL PLUGINS */
         conf.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'), options.syntaxHighlightOptions)
         conf.addPlugin(require('eleventy-plugin-reader-bar'))
-        conf.addPlugin(require('eleventy-plugin-reading-time'))
         conf.addPlugin(require('eleventy-plugin-footnotes'), options.footnotesOptions)
     }
 }
