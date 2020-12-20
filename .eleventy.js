@@ -6,6 +6,7 @@ module.exports = {
             markdown: null, // This needs a callback to do anything
             mdAnchorOptions: {},
             mdTocOptions: {},
+            mdEmojiOptions: {},
             syntaxHighlightOptions: {},
             footnotesOptions: {},
             typesetOptions: {
@@ -31,6 +32,8 @@ module.exports = {
             .use(require('markdown-it-toc-done-right'), Object.assign({
                 listType: 'ul',
             }, options.mdTocOptions))
+            // This allows using :emoji-tags:
+            .use(require('markdown-it-emoji'), options.mdEmojiOptions)
 
         if ('function' === typeof options.markdown) {
             // allow users to pass a callback that modifies the engine

@@ -1,6 +1,6 @@
 {
   "name": "@11in/scribe",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Tools to help with writing and formatting text.",
   "main": ".eleventy.js",
   "files": [
