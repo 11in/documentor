@@ -9,9 +9,6 @@ module.exports = {
             mdEmojiOptions: {},
             syntaxHighlightOptions: {},
             footnotesOptions: {},
-            typesetOptions: {
-                only: '.prose', // This pairs it up w/ Tailwind's typesetting
-            },
         }, options)
 
         // Define custom admonitions
@@ -44,9 +41,6 @@ module.exports = {
 
         // Add markdown filters
         require('./src/filters')(conf, engine)
-
-        // Add typeset features
-        conf.addTransform('typeset', require('./src/typeset')(options.typesetOptions))
 
         /* EXTERNAL PLUGINS */
         conf.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'), options.syntaxHighlightOptions)

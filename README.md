@@ -22,13 +22,6 @@ module.exports = conf => {
 }
 ```
 
-If you want to use the CSS styles that come packaged with Scribe, you'll need to impor them.
-If you're using [Elfin](https://github.com/11in/elfin) you can add the following to your `assets/styles/vendor.pcss`:
-
-```postcss
-@import "@11in/scribe/src/styles.css";
-```
-
 That's it!
 
 ## Features & Usage
