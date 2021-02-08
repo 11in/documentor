@@ -26,4 +26,4 @@ That's it!
 
 ## Features & Usage
 
-For more details on how to use and customize Scribe, [see the documentation](https://elfin.netlify.app/docs/scribe/).
+For more details on how to use and customize Scribe, [see the documentation](https://11in.alwaysblank.dev/docs/scribe/).
